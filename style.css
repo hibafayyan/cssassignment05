@@ -1,0 +1,28 @@
+header{
+    background-color:  #f8b864;
+    height: 50px;
+   
+}
+
+.click{
+    background-color:#f8b864 !important;
+    border-radius: 5px;
+    color:white ;
+}
+
+
+
+
+@media (max-width:768px){
+    icons{
+        display: none;
+    }
+}
+
+
+@media (min-width:992px){
+    .isolate{
+        isolation: isolate;
+         margin-top: -80px;
+    }
+}

@@ -11,6 +11,33 @@ header{
 }
 
 
+.isolate .c-1,.isolate .c-2{
+   
+    border: 0;
+    outline: 0;
+}
+.isolate .c-1{
+     border-right: 1px dashed gray;
+}
+
+
+
+.c-1 a,.c-2 a{
+
+transition:color 0.3s ease-in-out
+}
+
+.c-1 a:hover,.c-2 a:hover{
+    color: #f8b864 !important;
+    text-decoration: underline;
+}
+
+.absolute{
+    top: 10px !important;
+    right: 10px !important;
+    /* width: 150px !important; */
+}
+
 
 
 @media (max-width:768px){

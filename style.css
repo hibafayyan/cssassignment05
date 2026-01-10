@@ -38,6 +38,41 @@ transition:color 0.3s ease-in-out
     /* width: 150px !important; */
 }
 
+.img{
+    transition: opacity 0.6 ease-in-out;
+}
+
+.img:hover{
+    opacity:0.7 ;
+}
+
+.dash{
+    border: 1px dashed gray ;
+    
+}
+
+.underline{
+    max-width:80px; 
+    /* height: 1px !important; */
+     background-color: hsl(34, 91%, 68%); 
+     margin:0 auto;
+     padding-top: 20px;
+}
+
+
+.circle{
+    border-radius: 50%!important;
+    
+    
+}
+  /* 4th container */
+  .bg{
+    background-image: url("https://html.dynamiclayers.net/dl/charitify/img/featured-bg.jpg") !important;
+    background-position: cover;
+    background-repeat: no-repeat;
+  }
+
+
 
 
 @media (max-width:768px){

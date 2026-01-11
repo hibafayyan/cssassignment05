@@ -4,13 +4,24 @@ header{
    
 }
 
+nav ul a{
+ transition: color 0.8s ease-in-out !important
+}
+
+nav ul a:hover{
+    color: #f8b864 !important;
+}
+
 .click{
     background-color:#f8b864 !important;
     border-radius: 5px;
     color:white ;
 }
 
-
+.slider{
+    height: 100vh;
+}
+ 
 .isolate .c-1,.isolate .c-2{
    
     border: 0;
@@ -20,7 +31,14 @@ header{
      border-right: 1px dashed gray;
 }
 
+.scale{
+    transition: transform 2s ease !important;
+}
 
+.scale:hover{
+    transform: scale(1.1);
+    
+}
 
 .c-1 a,.c-2 a{
 
@@ -63,6 +81,12 @@ transition:color 0.3s ease-in-out
     border-radius: 50%!important;
     
     
+}
+
+
+.ebg{
+    background-image: url("https://html.dynamiclayers.net/dl/charitify/img/cta-bg.jpg")!important;
+    height: 40vh!important;
 }
   /* 4th container */
   .bg{
@@ -110,7 +134,7 @@ li{
 @media (min-width:992px){
     .isolate{
         isolation: isolate;
-         margin-top: -30px;
+         margin-top: -130px;
          z-index: 1000;
          
     }

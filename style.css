@@ -52,11 +52,10 @@ transition:color 0.3s ease-in-out
 }
 
 .underline{
-    max-width:80px; 
-    /* height: 1px !important; */
-     background-color: hsl(34, 91%, 68%); 
-     margin:0 auto;
-     padding-top: 20px;
+   width: 80px;
+   height: 0;
+
+   border-bottom: 8px solid #f8b864 !important;
 }
 
 
@@ -70,10 +69,36 @@ transition:color 0.3s ease-in-out
     background-image: url("https://html.dynamiclayers.net/dl/charitify/img/featured-bg.jpg") !important;
     background-position: cover;
     background-repeat: no-repeat;
+    height: 100vh!important;
   }
 
+li{
+    list-style-type: none;
+    line-height: 35px;
+}
+
+.bg1{
+    background-image: url("https://html.dynamiclayers.net/dl/charitify/img/page-header-bg.jpg") !important;
+    height: 350px;
+}
 
 
+.bg2{
+    background-image: url("https://html.dynamiclayers.net/dl/charitify/img/counters-bg.jpg");
+    height: 70vh;
+
+
+}
+
+.dollar{
+    font-size: 50px;
+}
+
+.bgf{
+    background-image: url("https://html.dynamiclayers.net/dl/charitify/img/map.png");
+    background-color: rgb(48, 45, 45);
+    height: 70vh;
+}
 
 @media (max-width:768px){
     icons{
@@ -85,6 +110,8 @@ transition:color 0.3s ease-in-out
 @media (min-width:992px){
     .isolate{
         isolation: isolate;
-         margin-top: -80px;
+         margin-top: -30px;
+         z-index: 1000;
+         
     }
 }

@@ -13,94 +13,123 @@
     <!-- bootstrap cdn -->
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet"
         integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css" />
+
     <link rel="stylesheet" href="./style.css">
 
 </head>
 
 <body>
-    <header class="container-xl top d-lg-flex align-items-center text-white justify-contenet-around">
-        <div class="container-lg">
-            <span> <i class="fa-regular fa-envelope"></i> Info@YourDomain.com</span>
-            <span class=" m-2"> <i class="fa-solid fa-mobile-retro"></i> +(333) 052 39876</span>
-        </div>
-        <div class="icons" style="width: 150px;">
-            <i class="fa-brands fa-facebook-f"></i>
-            <i class="fa-brands fa-instagram"></i>
-            <i class="fa-brands fa-twitter"></i>
-            <i class="fa-brands fa-pinterest"></i>
-            <i class="fa-brands fa-square-linkedin"></i>
-        </div>
-    </header>
-
-    <nav class="navbar navbar-expand-lg bg-body-tertiary fixed-top">
-        <div class="container-xl">
-            <a class="navbar-brand" href="#">
-                <img src="https://html.dynamiclayers.net/dl/charitify/img/logo.png" alt="charitify">
-            </a>
-            <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
-                data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
-                aria-label="Toggle navigation">
-                <span class="navbar-toggler-icon"></span>
-            </button>
-            <div class="collapse navbar-collapse fw-bold" id="navbarSupportedContent">
-                <ul class="navbar-nav me-auto mb-2 mb-lg-0 ms-auto ">
-                    <a class="nav-link active" aria-current="page" href="#">Home</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="./about.html">About</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="./causes.html">Causes</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="./events.html">Events</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="./pages.html">Pages</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="./blog.html">Blog</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="./contact.html">Contact</a>
-                    </li>
-
-
-                </ul>
-                <button class=" btn btn-lg text-white  p-2  click" type="submit">Donate Now</button>
-
+    <div class="fixed-top animate__animated animate__fadeInDown">
+        <header class="container-xl top d-lg-flex align-items-center text-white justify-contenet-around ">
+            <div class="container-lg">
+                <span> <i class="fa-regular fa-envelope"></i> Info@YourDomain.com</span>
+                <span class=" m-2"> <i class="fa-solid fa-mobile-retro"></i> +(333) 052 39876</span>
             </div>
-        </div>
-    </nav>
+            <div class="icons" style="width: 150px;">
+                <i class="fa-brands fa-facebook-f"></i>
+                <i class="fa-brands fa-instagram"></i>
+                <i class="fa-brands fa-twitter"></i>
+                <i class="fa-brands fa-pinterest"></i>
+                <i class="fa-brands fa-square-linkedin"></i>
+            </div>
+        </header>
+
+        <nav class="navbar navbar-expand-lg bg-body-tertiary mb-5 ">
+            <div class="container-xl">
+                <a class="navbar-brand" href="#">
+                    <img src="https://html.dynamiclayers.net/dl/charitify/img/logo.png" alt="charitify">
+                </a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                    data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
+                    aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse fw-bold" id="navbarSupportedContent">
+                    <ul class="navbar-nav me-auto d-lg-flex ms-auto ">
+                        <li>
+                            <a class="nav-link active" aria-current="page" href="#">Home</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="./about.html">About</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="./causes.html">Causes</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="./events.html">Events</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="./pages.html">Pages</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="./blog.html">Blog</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="./contact.html">Contact</a>
+                        </li>
+
+
+                    </ul>
+                    <button class=" btn btn-lg text-white  p-2  click" type="submit">Donate Now</button>
+
+                </div>
+            </div>
+        </nav>
+    </div>
     <!-- navbar ends -->
     <!-- slider start -->
-    <div id="carouselExampleAutoplaying" class="carousel slide container-lg" data-bs-ride="carousel">
-        <div class="carousel-inner">
 
-            <!-- slider-1 -->
+    <div id="carouselExampleAutoplaying" class="carousel slide container-lg my-5 p-5 h-100" data-bs-ride="carousel ">
+        <!-- card 1 -->
+        <div class="carousel-inner">
             <div class="carousel-item active">
                 <img src="https://html.dynamiclayers.net/dl/charitify/img/slider-1.jpg" class="d-block w-100" alt="...">
+                <div class="carousel-caption d-none d-md-block align-top">
+                    <h5 class="animate__animated animate__fadeInUp animate__slow	animate__infinite	 ">Join Us Today</h5>
+                    <h1 class="animate__animated animate__fadeInLeft animate__slow	animate__infinite	 ">Better Life for
+                        People</h1>
+                    <p class="animate__animated animate__fadeInDown animate__slow animate__infinite		">Help today
+                        because tomorrow you may be the one who needs helping!
+                        Forget what you can get and see what you can give.</p>
+                    <a href="" class="btn fw-bold text-white bg-warning  ">Read More</a>
+                    <a href="" class="btn fw-bold text-white bg-warning  ">Read More</a>
+                </div>
             </div>
-
-
-            <!-- slider-2 -->
-            <div class="carousel-item d-flex align-items-center justify-content-center">
-                <img src="https://html.dynamiclayers.net/dl/charitify/img/slider-2.jpg" class="d-block w-100 "
-                    alt="...">
-            </div>
-
-
-            <!-- slider 3 -->
+            <!-- card 2 -->
             <div class="carousel-item">
-                <img src="https://html.dynamiclayers.net/dl/charitify/img/slider-3.jpg" class="d-block w-100" alt="">
-                <div class="carousel-caption d-block">
-                    <p class="">Join Us Today </p>
-                    <h1 class="display-6 display-md-2 "> Better Life for People</h1>
-                    <p class="d-none d-md-block fs-6">Some representative placeholder content for the first slide.</p>
-                    <div class="d-none d-lg-flex gap-2 justify-content-center align-items-center">
-                        <button class="btn  click">Donate Now</button>
-                        <button class="btn  click">Learn More</button>
-                    </div>
+                <img src="https://html.dynamiclayers.net/dl/charitify/img/slider-2.jpg" class="d-block w-100" alt="...">
+                <div class="carousel-caption d-none d-md-block">
+
+                    <h1 class="animate__animated animate__fadeInLeft animate__slow animate__infinite	">Together we
+                        can make a Difference
+                    </h1>
+                    <p class="animate__animated animate__fadeInDown animate__slow animate__infinite	">Help today because
+                        tomorrow you may be the one who needs helping!
+                        Forget what you can get and see what you can give.</p>
+
+                    <a href="" class="btn fw-bold text-white bg-warning  ">Read More</a>
+                    <a href="" class="btn fw-bold text-white bg-warning  ">Read More</a>
+
+
+                </div>
+            </div>
+            <!-- card 3 -->
+            <div class="carousel-item">
+                <img src="https://html.dynamiclayers.net/dl/charitify/img/slider-2.jpg " class="d-block w-100"
+                    alt="...">
+                <div class="carousel-caption d-none d-md-block ">
+                    <h5 class="animate__animated animate__fadeInUp animate__delay-2s animate__infinite	">Join Us Today
+                    </h5>
+                    <h1 class="animate__animated animate__fadeInLeft animate__slow animate__infinite	">Give a little.
+                        Change a lot.</h1>
+                    <p class="animate__animated animate__fadeInDown animate__slow animate__infinite	 ">Help today
+                        because tomorrow you may be the one who needs helping!
+                        Forget what you can get and see what you can give.</p>
+                    <a href="" class="btn fw-bold text-white bg-warning  ">Read More</a>
+                    <a href="" class="btn fw-bold text-white bg-warning  ">Read More</a>
+
+
                 </div>
             </div>
         </div>
@@ -115,7 +144,6 @@
             <span class="visually-hidden">Next</span>
         </button>
     </div>
-
 
     <!-- isolated box start-->
 
@@ -166,6 +194,7 @@
     <div class="container-lg text-center mt-5 bg-secondary-subtle h-75">
         <div>
             <h1 class="fw-bold py-2 ">Recent Causes</h1>
+            <div class="underline mx-auto"></div>
             <p class="fw-bold text-center my-3">Help today because tomorrow you may be the one who
                 needs more helping!</p>
         </div>
@@ -187,7 +216,8 @@
                     <a href="" class="btn fw-bold text-dark-emphasis ">Read More</a>
                 </div>
                 <button type="button"
-                    class="btn btn-sm text-white bg-warning w-50 position-absolute top-0 end-0 absolute">Donate Now
+                    class="btn btn-sm text-white bg-warning w-50 position-absolute top-0 end-0 absolute click">Donate
+                    Now
                     +</button>
             </div>
             <!-- card 2 -->
@@ -205,7 +235,8 @@
                     <a href="" class="btn fw-bold text-dark-emphasis">Read More</a>
                 </div>
                 <button type="button"
-                    class="btn btn-sm text-white bg-warning w-50 position-absolute top-0 end-0 absolute">Donate Now
+                    class="btn btn-sm text-white bg-warning w-50 position-absolute top-0 end-0 absolute click">Donate
+                    Now
                     +</button>
             </div>
 
@@ -226,7 +257,8 @@
                     <a href="" class="btn fw-bold text-dark-emphasis"> Read More</a>
                 </div>
                 <button type="button"
-                    class="btn btn-sm text-white bg-warning w-50 position-absolute top-0 end-0 absolute">Donate Now
+                    class="btn btn-sm text-white bg-warning w-50 position-absolute top-0 end-0 absolute click">Donate
+                    Now
                     +</button>
             </div>
 
@@ -295,7 +327,7 @@
     <!--4th container  -->
     <div class="container-lg d-lg-flex  align-items-center bg  mt-5">
         <div class="my-3">
-            <a href="" class="btn text-white bg-warning fw-bold my-2">Featured Campaigns</a>
+            <a href="" class="btn text-white bg-warning fw-bold my-2 click">Featured Campaigns</a>
             <h1 class="text-white my-2">Featured project to built a School.</h1>
             <p class="text-white ">The secret to happiness lies in helping others.</p>
             <p> Never underestimate the difference </p>
@@ -303,9 +335,9 @@
                 lives of the poor, the abused and the helpless.</p>
             <input type="range" class="w-25 ">
             <div class=" my-2">
-                <span class="text-white "> <i class="fa-solid fa-signal" style="color: #FFD43B;"></i> Goal:
+                <span class="text-white "> <i class="fa-solid fa-signal "></i> Goal:
                     $45000</span>
-                <span class="text-white"> <i class="fa-regular fa-thumbs-up" style="color: #FFD43B;"></i>
+                <span class="text-white"> <i class="fa-regular fa-thumbs-up "></i>
                     Raised: $5000</span>
             </div>
 
@@ -322,24 +354,114 @@
             </div>
  -->
 
- <iframe 
-  src="https://www.youtube.com/embed/_IlLwfC2dNc" 
-  title="YouTube video player"
-  frameborder="0"
-  allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
-  allowfullscreen>
-</iframe>
+        <!-- <iframe src="https://www.youtube.com/embed/_IlLwfC2dNc" title="YouTube video player" frameborder="0"
+            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+            allowfullscreen>
+        </iframe> -->
 
- </div>
+    </div>
 
 
-        <section class="container-lg bg-secondary-subtle">
-
-            <h1 class="text-center  ">Meet Out Volunteers</h1>
-            <div class=" container-lg underline"></div>
-        </section>
+    <section class="container-lg  bg-secondary-subtle">
 
 
+        <h1 class="text-center mt-5 ">Meet Out Volunteers</h1>
+        <div class="underline mx-auto"></div>
+        <p class="text-center  my-2 fw-bold">Help today because tomorrow you may be the one who
+            needs more helping!</p>
+        <div class="container-lg d-lg-flex justify-content-center  ">
+            <div class="col-lg-6 col-md-12 mb-4">
+                <div class="row g-3">
+                    <div class="col-6">
+                        <img src="https://html.dynamiclayers.net/dl/charitify/img/team-1.jpg" class="img-fluid rounded">
+                    </div>
+                    <div class="col-6">
+                        <img src="https://html.dynamiclayers.net/dl/charitify/img/team-2.jpg" class="img-fluid rounded">
+                    </div>
+                    <div class="col-6">
+                        <img src="https://html.dynamiclayers.net/dl/charitify/img/team-3.jpg" class="img-fluid rounded">
+                    </div>
+                    <div class="col-6">
+                        <img src="https://html.dynamiclayers.net/dl/charitify/img/team-4.jpg" class="img-fluid rounded">
+                    </div>
+                </div>
+            </div>
+            <div class="p-5">
+                <h3>Become a Volunteer?</h3>
+                <h3>Join your hand with us for a better life and beautiful future.</h3>
+                <p class="fw-bold text-dark-emphasis">The secret to happiness lies in helping others. Never
+                    underestimate the difference YOU can make in
+                    the lives of the poor, the abused and the helpless.</p>
+                <li class="fw-bold"><i class="fa-solid fa-check" style="color: #FFD43B;"></i> We are friendly to each
+                    other.</li>
+                <li class="fw-bold"><i class="fa-solid fa-check" style="color: #FFD43B;"></i> If you join with us,We
+                    will give you free training.</li>
+                <li class="fw-bold"><i class="fa-solid fa-check" style="color: #FFD43B;"></i> Its an opportunity to help
+                    poor children</li>
+                <li class="fw-bold"><i class="fa-solid fa-check" style="color: #FFD43B;"></i> No goal requirements.</li>
+                <li class="fw-bold"><i class="fa-solid fa-check" style="color: #FFD43B;"></i> Joining is tottaly free.
+                    We dont need any money from you.</li>
+                <button class=" btn btn-lg text-white  p-2  click my-5" type="submit">Join with Us</button>
+
+            </div>
+
+
+
+    </section>
+
+
+    <div class=" container-lg d-lg-flex bg2 mx-auto  justify-content-center align-items-center my-5">
+        <div class="m-2">
+            <i class=" text-white fw-bold  fa-solid fa-dollar-sign dollar m-3"></i>
+            <h1 class="text-warning">85389</h1>
+            <h4 class="text-white ">Money Donated</h4>
+        </div>
+
+        <div class="m-2 ">
+            <i class="text-white fw-bold fa-regular fa-face-smile dollar m-3"></i>
+            <h1 class="text-warning">85389</h1>
+            <h4 class="text-white ">Money Donated</h4>
+        </div>
+
+        <div class="m-2 ">
+            <i class="text-white fw-bold fa-solid fa-user dollar m-3"></i>
+            <h1 class="text-warning">85389</h1>
+            <h4 class="text-white ">Money Donated</h4>
+        </div>
+    </div>
+
+    <div class="container-lg d-lg-flex mx-auto justify-content-between my-5">
+        <img src="https://html.dynamiclayers.net/dl/charitify/img/sponsor-2.png" alt="" class="img-fluid my-2 ">
+        <img src="https://html.dynamiclayers.net/dl/charitify/img/sponsor-3.png" alt="" class="img-fluid my-2 ">
+        <img src="https://html.dynamiclayers.net/dl/charitify/img/sponsor-8.png" alt="" class="img-fluid  my-2">
+        <img src="https://html.dynamiclayers.net/dl/charitify/img/sponsor-4.png" alt="" class="img-fluid  my-2">
+        <img src="https://html.dynamiclayers.net/dl/charitify/img/sponsor-1.png" alt="" class="img-fluid my-2">
+    </div>
+
+
+    <footer class="container-lg d-lg-flex justify-content-evenly bgf align-items-center">
+        <div class="my-5">
+            <img src="https://html.dynamiclayers.net/dl/charitify/img/logo.png" alt="charitify">
+            <p class="text-white fw-bold ">The secret to happin</p>
+        </div>
+
+     <div >
+        <h3 class="text-white">Recent Campaigns
+</h3>
+<li class="text-white">First charity activity of this summer. </li>
+<li class="text-white">Big charity: build school for poor children. </li>
+<li class="text-white">Nepal earthqueak donation campaigns. </li>
+     </div>
+
+     <div>
+        <h3 class="text-white">Charitify Location</h3>
+       <li class="text-white">Info@YourDomain.com</li> 
+        <li class="text-white" > Www.YourWebsite.com</li> 
+        <li class="text-white">60 Grand Avenue. Central New Road 0708, USA></li>
+     </div>
+
+
+    </footer>
 
 
 
@@ -349,9 +471,9 @@
 
 
 
-        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js"
-            integrity="sha384-FKyoEForCGlyvwx9Hj09JcYn3nv7wiPVlz7YYwJrWVcXK/BmnVDxM+D2scQbITxI"
-            crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-FKyoEForCGlyvwx9Hj09JcYn3nv7wiPVlz7YYwJrWVcXK/BmnVDxM+D2scQbITxI"
+        crossorigin="anonymous"></script>
 
 </body>
 

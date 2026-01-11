@@ -2,100 +2,293 @@
 <html lang="en">
 
 <head>
-  <div class="fixed-top">
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Charitify</title>
-    <!-- font awesome cdn -->
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.1/css/all.min.css"
-        integrity="sha512-2SwdPD6INVrV/lHTZbO2nodKhrnDdJK9/kg2XD1r9uGqPo1cUbujc+IYdlYdEErWNu69gVcYgdxlmVmzTWnetw=="
-        crossorigin="anonymous" referrerpolicy="no-referrer" />
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Charitify</title>
+  <!-- font awesome cdn -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.1/css/all.min.css"
+    integrity="sha512-2SwdPD6INVrV/lHTZbO2nodKhrnDdJK9/kg2XD1r9uGqPo1cUbujc+IYdlYdEErWNu69gVcYgdxlmVmzTWnetw=="
+    crossorigin="anonymous" referrerpolicy="no-referrer" />
 
-    <!-- bootstrap cdn -->
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet"
-        integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB" crossorigin="anonymous">
+  <!-- bootstrap cdn -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB" crossorigin="anonymous">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css" />
 
-         <link
-    rel="stylesheet"
-    href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"
-  />
-    <link rel="stylesheet" href="./style.css">
+  <link rel="stylesheet" href="./style.css">
 
 </head>
 
 <body>
-  <div class=" animate__animated animate__fadeInDown">
-    <header class="container-xl top d-lg-flex align-items-center text-white justify-contenet-around">
-        <div class="container-lg">
-            <span> <i class="fa-regular fa-envelope"></i> Info@YourDomain.com</span>
-            <span class=" m-2"> <i class="fa-solid fa-mobile-retro"></i> +(333) 052 39876</span>
-        </div>
-        <div class="" style="width: 150px;">
-            <i class="fa-brands fa-facebook-f"></i>
-            <i class="fa-brands fa-instagram"></i>
-            <i class="fa-brands fa-twitter"></i>
-            <i class="fa-brands fa-pinterest"></i>
-            <i class="fa-brands fa-square-linkedin"></i>
-        </div>
+  <div class="fixed-top animate__animated animate__fadeInDown">
+    <header class="container-xl top d-lg-flex align-items-center text-white justify-contenet-around ">
+      <div class="container-lg">
+        <span> <i class="fa-regular fa-envelope"></i> Info@YourDomain.com</span>
+        <span class=" m-2"> <i class="fa-solid fa-mobile-retro"></i> +(333) 052 39876</span>
+      </div>
+      <div class="icons" style="width: 150px;">
+        <i class="fa-brands fa-facebook-f"></i>
+        <i class="fa-brands fa-instagram"></i>
+        <i class="fa-brands fa-twitter"></i>
+        <i class="fa-brands fa-pinterest"></i>
+        <i class="fa-brands fa-square-linkedin"></i>
+      </div>
     </header>
 
-   <nav class="navbar navbar-expand-lg bg-body-tertiary">
-  <div class="container-xl">
-   <a class="navbar-brand" href="#">
-      <img src="https://html.dynamiclayers.net/dl/charitify/img/logo.png" alt="charitify" >
-    </a>
-    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-      <span class="navbar-toggler-icon"></span>
-    </button>
-    <div class="collapse navbar-collapse fw-bold" id="navbarSupportedContent">
-      <ul class="navbar-nav me-auto mb-2 mb-lg-0 ms-auto "><li>
-          <a class="nav-link active" aria-current="page" href="./index.html">Home</a>
-        </li>
-        <li class="nav-item">
-          <a class="nav-link" href="./about.html">About</a>
-        </li>
-        <li class="nav-item">
-          <a class="nav-link" href="./causes.html">Causes</a>
-        </li><li class="nav-item">
-          <a class="nav-link" href="./events.html">Events</a>
-        </li><li class="nav-item">
-          <a class="nav-link" href="./pages.html">Pages</a>
-        </li><li class="nav-item">
-          <a class="nav-link" href="./blog.html">Blog</a>
-        </li><li class="nav-item">
-          <a class="nav-link" href="./contact.html">Contact</a>
-        </li>
-        
-      
-      </ul>
-              <button class="btn btn-lg text-white  p-2" type="submit">Donate Now</button>
-      
-    </div>
+    <nav class="navbar navbar-expand-lg bg-body-tertiary mb-5 ">
+      <div class="container-xl">
+        <a class="navbar-brand" href="#">
+          <img src="https://html.dynamiclayers.net/dl/charitify/img/logo.png" alt="charitify">
+        </a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent"
+          aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse fw-bold" id="navbarSupportedContent">
+          <ul class="navbar-nav me-auto d-lg-flex ms-auto ">
+            <li>
+              <a class="nav-link active" aria-current="page" href="">Home</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="./about.html">About</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="./causes.html">Causes</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="./events.html">Events</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="./pages.html">Pages</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="./blog.html">Blog</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="./contact.html">Contact</a>
+            </li>
+
+
+          </ul>
+          <button class=" btn btn-lg text-white  p-2  click" type="submit">Donate Now</button>
+
+        </div>
+      </div>
+    </nav>
   </div>
-</nav>
-</div>
-
-<div class="container-lg bg1 my-5 p-5 align-center">
-  <h1 class="text-white">About Us</h1>
-  <p class="text-white">Help today because tomorrow you may be the one who
-needs more helping!</p>
-<nav aria-label="breadcrumb">
-  <ol class="breadcrumb">
-    <li class="breadcrumb-item text-center"><a href="#">Home</a></li>
-    <li class="breadcrumb-item active text-warning" aria-current="page">Library</li>
-  </ol>
-</nav>
-
-</div>
+  <!-- navbar ends -->
 
 
 
+  <div class="container-lg text-center  my-5   bg-secondary-subtle ">
+
+
+    <div class="container-lg row mx-auto mb-5 ">
+      <!-- card 1 -->
+      <div class="card mx-auto my-2 c-1" style="max-width: 20rem;">
+        <img src="https://html.dynamiclayers.net/dl/charitify/img/causes-1.jpg" class="card-img-top my-1 img" alt="...">
+        <div class="card-body">
+          <h5 class="card-title fw-bold">First charity activity of this summer.</h5>
+          <p class="card-text text-dark-emphasis">Help today because tomorrow you may be the one who needs
+            more helping!</p>
+          <p class="text-dark-emphasis"> <i class="fa-solid fa-signal" style="color: #FFD43B;"></i> Goal:
+            $45000</p>
+          <p class="text-dark-emphasis"> <i class="fa-regular fa-thumbs-up" style="color: #FFD43B;"></i>
+            Raised: $5000</p>
+
+          <a href="" class="btn fw-bold text-dark-emphasis ">Read More</a>
+        </div>
+        <button type="button"
+          class="btn btn-sm text-white bg-warning w-50 position-absolute top-0 end-0 absolute click">Donate
+          Now
+          +</button>
+      </div>
+      <!-- card 2 -->
+      <div class="card mx-auto my-2 c-1" style="max-width: 20rem;">
+        <img src="https://html.dynamiclayers.net/dl/charitify/img/causes-2.jpg" class="card-img-top my-1 img" alt="...">
+        <div class="card-body">
+          <h5 class="card-title fw-bold">Big charity: build school for poor children.</h5>
+          <p class="card-text text-dark-emphasis">Help today because tomorrow you may be the one who needs
+            more helping!</p>
+          <p class="text-dark-emphasis"> <i class="fa-solid fa-signal" style="color: #FFD43B;"></i> Goal:
+            $45000</p>
+          <p class="text-dark-emphasis"> <i class="fa-regular fa-thumbs-up" style="color: #FFD43B;"></i>
+            Raised: $5000</p>
+          <a href="" class="btn fw-bold text-dark-emphasis">Read More</a>
+        </div>
+        <button type="button"
+          class="btn btn-sm text-white bg-warning w-50 position-absolute top-0 end-0 absolute click">Donate
+          Now
+          +</button>
+      </div>
+
+      <!-- card 3 -->
+      <div class="card mx-auto my-2 c-1 " style="max-width: 20rem;">
+        <img src="https://html.dynamiclayers.net/dl/charitify/img/causes-3.jpg" class="card-img-top my-1 img" alt="...">
+        <div class="card-body">
+          <h5 class="card-title fw-bold">Building clean-water system for rural poor.</h5>
+          <p class="card-text text-dark-emphasis ">Help today because tomorrow you may be the one who needs
+            more helping!</p>
+
+          <p class="text-dark-emphasis"> <i class="fa-solid fa-signal" style="color: #FFD43B;"></i> Goal:
+            $45000</p>
+          <p class="text-dark-emphasis"> <i class="fa-regular fa-thumbs-up" style="color: #FFD43B;"></i>
+            Raised: $5000</p>
+
+          <a href="" class="btn fw-bold text-dark-emphasis"> Read More</a>
+        </div>
+        <button type="button"
+          class="btn btn-sm text-white bg-warning w-50 position-absolute top-0 end-0 absolute click">Donate
+          Now
+          +</button>
+      </div>
+
+
+    </div>
+
+
+  </div>
+
+  <div class="container-lg text-center  bg-secondary-subtle h-75">
+
+
+    <div class="container-lg row mx-auto mb-5 ">
+      <!-- card 1 -->
+      <div class="card mx-auto my-2 c-1" style="max-width: 20rem;">
+        <img src="https://html.dynamiclayers.net/dl/charitify/img/causes-1.jpg" class="card-img-top my-1 img" alt="...">
+        <div class="card-body">
+          <h5 class="card-title fw-bold">First charity activity of this summer.</h5>
+          <p class="card-text text-dark-emphasis">Help today because tomorrow you may be the one who needs
+            more helping!</p>
+          <p class="text-dark-emphasis"> <i class="fa-solid fa-signal" style="color: #FFD43B;"></i> Goal:
+            $45000</p>
+          <p class="text-dark-emphasis"> <i class="fa-regular fa-thumbs-up" style="color: #FFD43B;"></i>
+            Raised: $5000</p>
+
+          <a href="" class="btn fw-bold text-dark-emphasis ">Read More</a>
+        </div>
+        <button type="button"
+          class="btn btn-sm text-white bg-warning w-50 position-absolute top-0 end-0 absolute click">Donate
+          Now
+          +</button>
+      </div>
+      <!-- card 2 -->
+      <div class="card mx-auto my-2 c-1" style="max-width: 20rem;">
+        <img src="https://html.dynamiclayers.net/dl/charitify/img/causes-2.jpg" class="card-img-top my-1 img" alt="...">
+        <div class="card-body">
+          <h5 class="card-title fw-bold">Big charity: build school for poor children.</h5>
+          <p class="card-text text-dark-emphasis">Help today because tomorrow you may be the one who needs
+            more helping!</p>
+          <p class="text-dark-emphasis"> <i class="fa-solid fa-signal" style="color: #FFD43B;"></i> Goal:
+            $45000</p>
+          <p class="text-dark-emphasis"> <i class="fa-regular fa-thumbs-up" style="color: #FFD43B;"></i>
+            Raised: $5000</p>
+          <a href="" class="btn fw-bold text-dark-emphasis">Read More</a>
+        </div>
+        <button type="button"
+          class="btn btn-sm text-white bg-warning w-50 position-absolute top-0 end-0 absolute click">Donate
+          Now
+          +</button>
+      </div>
+
+      <!-- card 3 -->
+      <div class="card mx-auto my-2 c-1 " style="max-width: 20rem;">
+        <img src="https://html.dynamiclayers.net/dl/charitify/img/causes-3.jpg" class="card-img-top my-1 img" alt="...">
+        <div class="card-body">
+          <h5 class="card-title fw-bold">Building clean-water system for rural poor.</h5>
+          <p class="card-text text-dark-emphasis ">Help today because tomorrow you may be the one who needs
+            more helping!</p>
+
+          <p class="text-dark-emphasis"> <i class="fa-solid fa-signal" style="color: #FFD43B;"></i> Goal:
+            $45000</p>
+          <p class="text-dark-emphasis"> <i class="fa-regular fa-thumbs-up" style="color: #FFD43B;"></i>
+            Raised: $5000</p>
+
+          <a href="" class="btn fw-bold text-dark-emphasis"> Read More</a>
+        </div>
+        <button type="button"
+          class="btn btn-sm text-white bg-warning w-50 position-absolute top-0 end-0 absolute click">Donate
+          Now
+          +</button>
+      </div>
+
+
+    </div>
+
+
+  </div>
+
+  <!-- video section start  -->
+
+ 
 
 
 
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js"
-        integrity="sha384-FKyoEForCGlyvwx9Hj09JcYn3nv7wiPVlz7YYwJrWVcXK/BmnVDxM+D2scQbITxI"
-        crossorigin="anonymous"></script>
+
+  <!-- video section end -->
+
+
+  
+
+  <div class="container-lg mx-auto">
+    <h1 class="fw-bold py-2 text-center">What People Say</h1>
+    <div class="underline mx-auto"></div>
+    <p class="fw-bold text-center my-3">Help today because tomorrow you may be the one who
+      needs more helping!</p>
+  </div>
+
+
+
+
+  <div class="container-lg d-lg-flex mx-auto justify-content-between my-5">
+    <img src="https://html.dynamiclayers.net/dl/charitify/img/sponsor-2.png" alt="" class="img-fluid my-2 ">
+    <img src="https://html.dynamiclayers.net/dl/charitify/img/sponsor-3.png" alt="" class="img-fluid my-2 ">
+    <img src="https://html.dynamiclayers.net/dl/charitify/img/sponsor-8.png" alt="" class="img-fluid  my-2">
+    <img src="https://html.dynamiclayers.net/dl/charitify/img/sponsor-4.png" alt="" class="img-fluid  my-2">
+    <img src="https://html.dynamiclayers.net/dl/charitify/img/sponsor-1.png" alt="" class="img-fluid my-2">
+  </div>
+
+
+
+  <footer class="container-lg d-lg-flex justify-content-between bgf align-items-center">
+    <div class="my-5 p-5">
+      <img src="https://html.dynamiclayers.net/dl/charitify/img/logo-light.png" alt="charitify">
+      <li class="text-white fw-bold p-5">The secret to happiness lies in helping others.
+        Never underestimate the dif</li>
+      <p></p>
+
+    </div>
+
+    <div class="mx-2 p-2">
+      <h3 class="text-white">Recent Campaigns
+      </h3>
+      <li class="text-white">First charity activity of this summer. </li>
+      <li class="text-white">Big charity: build school for poor children. </li>
+      <li class="text-white">Nepal earthqueak donation campaigns. </li>
+    </div>
+
+    <div class="mx-5">
+      <h3 class="text-white">Charitify Location</h3>
+      <li class="text-white"> <i class="fa-regular fa-envelope" style="color: #FFD43B;"></i> Info@YourDomain.com</li>
+      <li class="text-white"> <i class="fa-solid fa-mobile-screen" style="color: #FFD43B;"></i> +(333) 052 39876</li>
+      <li class="text-white"> <i class="fa-solid fa-globe" style="color: #FFD43B;"></i> Www.YourWebsite.com</li>
+      <li class="text-white"> <i class="fa-solid fa-location-dot" style="color: #FFD43B;"></i> 60 Grand Avenue. Central
+        New Road 0708, USA></li>
+    </div>
+
+
+  </footer>
+
+
+
+
+
+
+
+
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-FKyoEForCGlyvwx9Hj09JcYn3nv7wiPVlz7YYwJrWVcXK/BmnVDxM+D2scQbITxI"
+    crossorigin="anonymous"></script>
 
 </body>
 
